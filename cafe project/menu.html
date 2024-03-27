@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+		<title>MENU</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type = "text/javascript" src="function.js"></script>
+        
+    </head>
+    <body>
+
+
+	
+	<center>
+
+	<h1>MENU</h1>
+
+	<br>
+
+<img src="cart.png" width=10%  onclick="myFunction()" style="position:absolute; top:10px; right:30px;" />
+
+<div class="cartImg" id="cart" style="display: none">
+<label id="output"></label>
+
+
+</div>
+</center>
+
+
+
+<h2 style="font-family:verdana; font-size:50px; color: grey; margin:50px; weight: bold; line-height:0.1;">Coffee</h2>
+
+<hr style="margin:70px; ">
+
+	<table style="margin:50px;">
+		
+		
+		<tr>
+			<td><img src="latte.png" width ="90%"/> </td>
+			<td><img src="macchiato.png" width ="90%"/></td> 
+			<td><img src="espresso.png" width ="90%"/></td>
+			<td><img src="americano.png" width ="90%"/></td> 
+			
+		</tr>
+		<tr>
+			<td> Latte | $3 <br><button onclick="addtocart('latte')"> add to cart </button> </td> 
+			<td> Macchiato | $3 <br><button onclick="addtocart('Macchiato')"> add to cart </button> </td>
+			<td> Espresso | $3 <br><button onclick="addtocart('Espresso')"> add to cart </button> </td>
+			<td> Americano | $3 <br><button onclick="addtocart('Americano')"> add to cart </button> </td>
+		</tr>
+	
+	</table>
+	<br>
+<h2 style="font-family:verdana; font-size:50px; color: grey; margin:50px;">Dessert</h2>
+
+	
+	<table style="margin:50px;">
+		
+		
+		
+		<tr>
+			<td><img src="cheesecake.png" width ="90%"/> </td>
+			<td><img src="brownies.png" width ="90%"/></td> 
+			<td><img src="croissant.png" width ="90%"/></td>
+			<td><img src="waffle.png" width ="90%"/></td> 
+			
+		</tr>
+		<tr>
+			<td> Cheesecake <br><button id="" value="cart"> add to cart </button></td> 
+			<td> Macchiato <br><button id="" value="cart"> add to cart </button></td>
+			<td> Croissant <br><button id="" value="cart"> add to cart </button></td>
+			<td> Waffle <br><button id="" value="cart"> add to cart </button></td>
+		</tr>
+	
+	</table>
+
+	
+        
+    </body>
+</html>
