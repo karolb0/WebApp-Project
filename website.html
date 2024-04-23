@@ -4,26 +4,27 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> 
         <title>Gongcha Café</title>
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
         <script src="Java/scripts.js"></script>
     </head>
 
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
-            <div class="container"id="mainNav">
+            <div class="container"id="mainNav" id="vr">
                 <a class="navbar-brand"><H1>Gongcha Café</H1> </a>
 
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link"  href="file:///C:/Users/LENOVO/Documents/Karol%20-%20C%C3%B3digos/codigo/cafelogin.html">Login</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Menu</a></li> <!-- Link the menu page-->
+                        <li class="nav-item"><a class="nav-link" href="file:///C:/Users/LENOVO/Documents/Karol%20-%20C%C3%B3digos/codigo/menu.html">Menu</a></li> <!-- Link the menu page-->
+                        <li class="nav-item"><a class="nav-link" href="#coupons">Coupons</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
 
         <header>        
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -38,7 +39,7 @@
                     <br>
                     <br>
                     <br>
-                  <h1 class="display-3">"SIP, SMILE, REPEAT"</h1> 
+                  <h1 class="display-3" id="slogan">"SIP, SMILE, REPEAT"</h1> 
                   <br>
                   <br>
                   <br>
@@ -55,6 +56,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Most Popular</h2>
                 </div>
+                <br>
                 <br>
 
                 <div class="row text-center">
@@ -106,7 +108,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Black Coffee</div>
-                                <div class="portfolio-caption-subheading text-muted">A cup of natural black coffee. $5.00.</div>
+                                <div class="portfolio-caption-subheading text-muted">A natural cup of black coffee.</div>
                             </div>
                         </div>
                     </div>
@@ -119,7 +121,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Cappuccino</div>
-                                <div class="portfolio-caption-subheading text-muted">A cup of natural cappuccino $8.00.</div>
+                                <div class="portfolio-caption-subheading text-muted">A natural cup of cappuccino.</div>
                             </div>
                         </div>
                     </div>
@@ -132,7 +134,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Espresso</div>
-                                <div class="portfolio-caption-subheading text-muted">A cup of natural espresso $5.00.</div>
+                                <div class="portfolio-caption-subheading text-muted">A natural cup of espresso.</div>
                             </div>
                         </div>
                     </div>                   
@@ -153,7 +155,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Mocha Coffee -->
                         <div class="portfolio-item">                               
-                                <img class="img-fluid" src="assets/img/portfolio/mocha.jpg" alt="mocha" width="400" height="300" />
+                                <img class="img-fluid" src="assets/img/portfolio/mocha-fotor-2024032916480.jpg" alt="mocha" width="400" height="300" />
                             </a>
                             <div class="portfolio-caption">                             
                                 <div class="portfolio-caption-subheading text-muted">Mocha</div>
@@ -164,7 +166,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Americano Coffee -->
                         <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/americano.jpg" alt="americano" width="400" height="300" />
+                                <img class="img-fluid" src="assets/img/portfolio/americano-fotor-20240329164910.jpg" alt="americano" width="400" height="300" />
                             </a>
                             <div class="portfolio-caption">               
                                 <div class="portfolio-caption-subheading text-muted">Americano</div>
@@ -175,7 +177,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Macchiato Coffee -->
                         <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/macchiato.jpg" alt="macchiato" width="400" height="300" />
+                                <img class="img-fluid" src="assets/img/portfolio/macchiato-fotor-2024032916490.jpg" alt="macchiato" width="400" height="300" />
                             </a>
                             <div class="portfolio-caption">                             
                                 <div class="portfolio-caption-subheading text-muted">Macchiato</div>
@@ -244,46 +246,39 @@
         <br>
         <br>
 
-        <!-- About us team-->
-        <section class="page-section bg-light" id="team">
+        <!-- coupons-->
+        <section class="page-section bg-light">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Team</h2>
+                    <h2 class="section-heading text-uppercase">Coupons</h2>
                     <br>
                 </div>
-
+        
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/karol.jpg" alt="..." />
-                            <h4>Karol Becerra</h4>
-                            <br>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Coupon 1</h4>
+                            <img id="cpi" src="assets/img/portfolio/Coffee Shop Coupon - Made with PosterMyWall.jpg" alt="Coupon 1" class="img-fluid custom-image"/>
                         </div>
                     </div>
+        
                     <div class="col-lg-4">
                         <div class="team-member">
-                          </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/.jpg" alt="..." />
-                            <h4>Se-ah Kim</h4>
-                            <br>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <h4>Coupon 2</h4>
+                            <img id="cpi" src="assets/img/portfolio/Coffee Shop Coupon - Made with PosterMyWall (1).jpg" alt="Coupon 2" class="img-fluid custom-image"/>
                         </div>
                     </div>
-                    <br>
-                    <br>
+        
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Coupon 3</h4>
+                            <img id="cpi" src="assets/img/portfolio/Coffee Shop Coupon - Made with PosterMyWall (2).jpg" width="100" alt="Coupon 3" class="img-fluid custom-image"/>
+                        </div>
                     </div>
-                </div>
+       
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><h4 class="large text-muted">Gongcha Café</h4></div>
+                    <div class="col-lg-8 mx-auto text-center">
+                    <h4 class="large text-muted">Gongcha Café</h4></div>
                 </div>
             </div>
         </section>
